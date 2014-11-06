@@ -1,0 +1,15 @@
+@relation movers
+
+@attribute outlook {sunny, overcast, rainy}
+@attribute temperature real 
+@attribute humidity real
+@attribute windy {TRUE, FALSE}
+@attribute play {yes, no}
+
+@data
+
+sunny, 100, 85, FALSE, ?
+sunny, 100, 90, TRUE, ?
+overcast, 50, 86, FALSE, ?
+rainy, 50, 96, FALSE, ?
+rainy, 50, 80, FALSE, ?
